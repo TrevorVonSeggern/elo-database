@@ -1,0 +1,28 @@
+{
+  "name": "elo-database",
+  "version": "1.0.0",
+  "description": "DAL for elo projects",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrevorVonSeggern/elo-database.git"
+  },
+  "author": "Trevor Von Seggern",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TrevorVonSeggern/elo-database/issues"
+  },
+  "homepage": "https://github.com/TrevorVonSeggern/elo-database#readme",
+  "devDependencies": {
+    "typescript": "^2.2.1"
+  },
+  "dependencies": {
+    "require": "^2.4.20",
+    "web-base-model": "^1.0.2",
+    "web-server-database": "^2.0.32"
+  }
+}
