@@ -1,7 +1,7 @@
 import {DBMatch, DBTeam, DBEloValue} from "./sequelize";
 import {ServerBaseModel, all} from "web-base-server-model";
 import {mapObjectToObject} from 'web-base-model';
-import {MatchPlayer, EloValue} from "../../models/models";
+import {MatchPlayer, EloValue} from "../models";
 import {DBEvent} from "./sequelize";
 import logs from "web-server-database/server/logs";
 import {EloValueServer} from "./eloValue";

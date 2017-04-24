@@ -1,7 +1,7 @@
 import {DBTeam} from "./sequelize";
 import {ServerBaseModel, all} from "web-base-server-model";
 import {mapObjectToObject} from 'web-base-model';
-import {Team} from "../../models/models";
+import {Team} from "../models";
 import {DBGame} from "./sequelize";
 
 export class TeamServer extends ServerBaseModel implements Team {

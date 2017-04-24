@@ -1,7 +1,7 @@
 import {DBGame} from "./sequelize";
 import {ServerBaseModel, all} from "web-base-server-model";
 import {mapObjectToObject} from 'web-base-model';
-import {Game} from "../../models/models";
+import {Game} from "../models";
 
 export class GameServer extends ServerBaseModel implements Game {
 	id: string;

@@ -1,6 +1,6 @@
 {
   "name": "elo-database",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "DAL for elo projects",
   "main": "index.js",
   "types": "index.d.ts",
@@ -18,11 +18,14 @@
   },
   "homepage": "https://github.com/TrevorVonSeggern/elo-database#readme",
   "devDependencies": {
+    "@types/es6-shim": "^0.31.32",
     "typescript": "^2.2.1"
   },
   "dependencies": {
+    "bluebird": "^3.5.0",
     "require": "^2.4.20",
     "web-base-model": "^1.0.2",
-    "web-server-database": "^2.0.32"
+    "web-server-database": "^2.0.32",
+    "web-user-management": "0.0.16"
   }
 }

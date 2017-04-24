@@ -1,7 +1,7 @@
 import {DBPlayer} from "./sequelize";
 import {ServerBaseModel, all} from "web-base-server-model";
 import {mapObjectToObject} from 'web-base-model';
-import {Player} from "../../models/models";
+import {Player} from "../models";
 
 export class PlayerServer extends ServerBaseModel implements Player {
 	id: string;

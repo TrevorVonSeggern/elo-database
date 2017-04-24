@@ -1,7 +1,7 @@
 import {DBEvent} from "./sequelize";
 import {ServerBaseModel, all} from "web-base-server-model";
 import {mapObjectToObject} from 'web-base-model';
-import {Event} from "../../models/models";
+import {Event} from "../models";
 
 export class EventServer extends ServerBaseModel implements Event {
 	id: string;

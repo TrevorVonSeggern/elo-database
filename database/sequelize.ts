@@ -53,6 +53,10 @@ eloValue.belongsTo(team);
 if (path.join(process.cwd(), '/server/database') == __dirname)
 	SyncDatabase();
 
+export function SyncEloDatabase() {
+	SyncDatabase();
+}
+
 export let DBGame = game;
 export let DBEvent = event;
 export let DBTeam = team;

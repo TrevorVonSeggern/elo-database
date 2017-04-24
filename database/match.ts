@@ -1,7 +1,7 @@
 import {DBMatch} from "./sequelize";
 import {ServerBaseModel, all} from "web-base-server-model";
 import {mapObjectToObject} from 'web-base-model';
-import {Match} from "../../models/models";
+import {Match} from "../models";
 
 export class MatchServer extends ServerBaseModel implements Match {
 	id: string|number;

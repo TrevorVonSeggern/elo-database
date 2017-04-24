@@ -1,7 +1,7 @@
 import {DBEloValue} from "./sequelize";
 import {ServerBaseModel, all} from "web-base-server-model";
 import {mapObjectToObject} from 'web-base-model';
-import {EloValue} from "../../models/models";
+import {EloValue} from "../models";
 
 export class EloValueServer extends ServerBaseModel implements EloValue {
 	id: string | number;
